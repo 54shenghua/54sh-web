@@ -1,0 +1,58 @@
+/*!*这里就是那个背景图片，轮播图滚动到底就隐藏，和其他navbar样式放在一起就行*!*/
+.navbar-container {
+    transition: .5s;
+    position: fixed;
+    width: 100%;
+    background: rgba(1, 70, 142, 0) !important;
+    z-index: 4;
+}
+
+.navbar-bg-container {
+    position: fixed;
+    transition: .5s;
+    z-index: 3;
+}
+
+.navbar-container.scrolled {
+    background: rgba(1, 70, 142, 0.7) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-container.scrolledMobile {
+    background: rgba(1, 70, 142, 0.7) !important;
+    backdrop-filter: blur(10px);
+}
+
+
+.navbar-logo img:first-child {
+    margin-left: 40px;
+}
+
+.navbar-logo img:last-child {
+    margin-left: 20px;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+/*.navbar-item {*/
+/*    color: #fff;*/
+/*    flex-grow: 1;*/
+/*}*/
+
+.navbar-search img {
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.navbar-download img {
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+/*.car-indicators {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+

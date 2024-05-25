@@ -1,0 +1,182 @@
+/* 
+
+中南大学校团委 升华网
+CSS Style For 54shenghua Part II
+
+2024.5.25 @thetheOrange
+
+本CSS定义了以下部分的样式:
+学院风采 示范性团课
+
+*/
+
+/* #region 通用设置 start */
+
+body {
+    font-family: 'PingFang SC', 'SF Display Pro';
+}
+
+/* bg图片样式设置 */
+.bg-image-style {
+    width: 18em;
+    flex-shrink: 0;
+}
+
+/* 栏目标题样式 */
+.title-style {
+    color: #0852a2;
+    margin: 0;
+}
+
+/* 自定义a标签 */
+.reset-a {
+    color: black;
+    text-decoration: none;
+}
+
+/* #endregion 通用设置 end*/
+
+
+/* #region 学院风采 start*/
+/* 详细内容展示板块  */
+
+.Academy-charm {
+    background-image: url("../../assets/bg/3.png");
+    background-size: cover;
+}
+
+.Academy-charm-detail {
+    margin-bottom: 50px;
+}
+
+.Academy-charm-detail-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.Academy-charm-detail-content-introduce {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px;
+    background-color: white;
+}
+
+.Academy-charm-detail-content-introduce-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 15px;
+}
+
+.Academy-charm-detail-content-introduce-text h5 {
+    margin: 20px 0;
+}
+
+.Academy-charm-detail-content-introduce-text-title {
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+}
+
+.Academy-charm-detail-content-introduce-text span {
+    white-space: wrap;
+}
+
+.Academy-charm-detail-content-introduce-date {
+    color: #a9a9a9;
+    text-align: center;
+}
+
+.Academy-charm-detail-content-introduce-date span {
+    font-size: large;
+    font-weight: bold;
+}
+
+/* 学院列表 */
+
+.Academy-charm-list li {
+    list-style-type: none;
+}
+
+.Academy-charm-list-items-institution span {
+    display: table-cell;
+}
+
+.Academy-charm-list-items li {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    flex-basis: 0;
+}
+
+.Academy-charm-list-items-institution {
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #d5dadf;
+    padding: 2px;
+    margin-right: 10px;
+    color: #a9a9a9;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.Academy-charm-list-items li p {
+    margin-bottom: 0px;
+}
+
+.Academy-charm-list-items-institution-date {
+    color: #8e8e8e;
+}
+/* #endregion 学院风采 end*/
+
+/* #region 示范性团课板块start */
+.Demonstration {
+    background-image: url("../../assets/bg/6.png");
+    background-size: cover;
+}
+
+.Demonstration .title-style {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* .Demonstration-video:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s ease;
+} */
+
+/* mask 需要改宽度 */
+.Demonstration-video-mask {
+    width: 16.5em;
+    height: 8em;
+    font-size: 20px;
+    transform: translateY(-60px);
+    margin: 0 2.5em;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.Demonstration-video-mask a {
+    text-decoration: none;
+    color: black;
+}
+
+.Demonstration-video-mask-unit {
+    color: #a9a9a9;
+    font-size: 0.8em;
+} 
+
+/* #endregion 示范性团课板块end*/

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.pagerBottom {
+    text-align: center;
+}
+
+.pagerBottom a{
+    border: 1px solid #e1e2e3;
+    color: inherit;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    padding: 0 12px;
+    margin: 8px;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+}
+
+.pagerBottom a.active{
+    border: none;
+    color: #fff;
+    cursor: auto;
+    background-color: rgb(0, 91, 189);
+}
+
+.pagerBottom a.disabled{
+    color: #ccc;
+    cursor: not-allowed;
+}
