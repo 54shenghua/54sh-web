@@ -3,10 +3,10 @@
 中南大学校团委 升华网
 JS Function For 54shenghua Part II
 
-2024.5.25 @grtsinry43
+2024.5.26 @grtsinry43
 
 本JS定义了以下部分的功能实现:
-导航栏动画
+导航栏动画 搜索功能
 
 */
 
