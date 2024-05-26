@@ -41,6 +41,10 @@
 /*    flex-grow: 1;*/
 /*}*/
 
+.navbar-search {
+    align-items: center !important;
+}
+
 .navbar-search img {
     margin-left: 20px;
     transition: 0.5s;
@@ -56,3 +60,14 @@
 /*    align-items: center;*/
 /*}*/
 
+#searchInput {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 2px 15px;
+    margin-left: 10px;
+    width: 0;
+    display: none;
+    transition: width 0.5s;
+}
