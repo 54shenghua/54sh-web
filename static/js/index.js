@@ -64,8 +64,6 @@ JS Function For 54shenghua Part II
 
     // 显示和隐藏
     searchIcon.addEventListener('click', () => {
-        console.log(1)
-        console.log(searchInput.style.display)
         if (searchInput.style.display !== 'block') {
             //显示
             searchInput.style.display = 'block';
