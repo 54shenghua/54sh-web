@@ -1,0 +1,108 @@
+/* 基础设置 */
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.detail-content-bg {
+    padding: 0;
+}
+
+#active {
+    color: #0852a2;
+}
+
+/* 视频排序 */
+.detail-content-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail-content-text .category > span {
+    color: #0852a2;
+}
+
+.detail-content-text .category ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.detail-content-text .category ul li {
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.detail-content-text .category ul li :hover {
+    color: #0852a2;
+}
+
+
+/* 搜索关键词框 */
+
+#searchVideoInput {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 2px 15px;
+    margin-right: 10px;
+    width: 0;
+    display: none;
+    transition: 0.5s;
+}
+
+.detail-content-text .search {
+    color: white;
+    background-color: #0852a2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* 视频展示板块 */
+.video-card {
+    flex-direction: column;
+}
+
+.video-card .video-post {
+    width: 23vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.video-card .video-info p{
+    margin: 0;
+}
+
+.video-card .video-sub-info {
+    font-size: 0.7em;
+}
+
+.video-card .video-sub-info :nth-child(1) {
+    padding-right: 5px;
+}
+
+.video-card .video-sub-info :nth-child(2) {
+    padding-left: 5px;
+}
+
+/* 最多人播放 */
+#video-hot {
+    color: #0852a2;
+    padding: 0 5px;
+}
+
+/* 针对手机端 */
+@media screen and (max-width: 600px) {
+    /* 视频信息 */
+    .video-card {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .video-card .video-post {
+        width: 50vw;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+    <title>文章目录 升华网</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="360-site-verification" content="afff5fddf129bfe1591eb886b8edf845" />
+    <meta name="description" content="中南大学升华网位于湖南省长沙市岳麓区中南大学新校区毓秀楼四楼，隶属于共青团中南大学委员会，即校团委网络信息部，是全国高校首家网上团校。">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="./assets/icons/1.png">
+    <!-- Bootstrap 5 响应式前端框架 -->
+    <link href="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome 图标 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- Custom CSS @SteamFinder -->
+    <link href="./static/css/index-style.css" rel="stylesheet">
+    <!-- Custom CSS @thetheOrange -->
+    <link href="./static/css/index-style-2.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/video-detail.css">
+    <!-- Custon CSS @ljy -->
+    <link rel="stylesheet" href="./static/css/global.css">
+    <link rel="stylesheet" href="./static/css/navbar.css">
+    <link rel="stylesheet" href="./static/css/work-message.css">
+    <link rel="stylesheet" href="./static/css/pager.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark navbar-container justify-content-center align-items-center scrolledMobile"
+        style="z-index: 11;">
+        <!-- logo -->
+        <a class="navbar-brand navbar-logo" href="#">
+            <img src="./static/img/logo1.png" alt="" height="30">
+            <img src="./static/img/logo2.png" alt="" height="30">
+            <img src="./static/img/logo3.png" alt="" height="30">
+        </a>
+
+        <!-- 展开按钮 -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">团委概况</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">工作动态</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">团内通知</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">理论学习</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">学院风采</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">实践育人平台</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">中南小团子</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">信息公开</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">场地申请</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">联系我们</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 搜索框 -->
+
+        <!-- <div class="navbar-search">
+            <img src="./static/img/nav-search.png" alt="" height="20">
+            <a href="" class="navbar-download">
+                <img src="./static/img/nav-dl.png" alt="" height="25">
+            </a>
+        </div> -->
+        <div class="navbar-search d-flex">
+            <input type="text" id="searchInput" placeholder="搜索内容...">
+            <img src="./static/img/nav-search.png" alt="" height="22">
+            <a href="" class="navbar-download">
+                <img src="./static/img/nav-dl.png" alt="" height="25">
+            </a>
+        </div>
+
+    </nav>
+
+    <a href="https://www.csu.edu.cn" target="_blank">
+        <img src="./assets/images/banner.png" width="100%" class="practiceEdu-img" alt="实践育人" />
+    </a>
+
+
+    <div class="detail-bg">
+        <div class="pt-5"></div>
+        <div class="container-xl">
+            <div class="work-title-new">
+                <p class="h3 title-style fw-bold">青春音视频板块</p>
+                <div class="text-end">
+                    <a href="" target="_blank">
+                        <span class="work-title-new-more text-primary fw-bold">
+                            网站首页 >> 青春音视频板块
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <img src="./assets/icons/12.png" width="100%" alt="">
+        </div>
+        <div class="container-fluid py-2 px-5">
+
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-md-10 detail-content-bg detail-sidebar-right">
+
+                    <div class="pt-5"></div>
+
+                    <div class="detail-content-text">
+                        <div class="category d-flex justify-content-start align-items-center">
+                            <span>视频排序:</span>
+                            <ul class="d-flex justify-content-around align-items-center">
+                                <li><a href="">默认排序</a></li>
+                                <li id="active"><a href="" >最多点击</a></li>
+                                <li><a href="">最新发布</a></li>
+                                <li><a href="">最久发布</a></li>
+                            </ul>
+                        </div>
+                        <div class="search d-flex justify-content-center align-items-center">
+                            <input type="text" id="searchVideoInput" placeholder="搜索内容...">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <span>搜索关键词</span>
+                        </div>
+                    </div>
+
+                    <div class="pt-5"></div> 
+
+                    <div class="video-container container-xl">
+                        <div class="row">
+                            <div class="col-md-4 mx-auto">
+                                <div class="video-card d-flex justify-content-center align-items-start">
+                                    <img class="video-post cardFloat" src="assets/images/12.png" alt="视频封面">
+                                    <div class="video-info">
+                                        <p>禾下乘凉梦</p>
+                                        <ul class="video-sub-info d-flex justify-content-start align-items-center text-secondary">
+                                            <li>18.2万观看次数</li>
+                                            <li>2023-12-21</li>
+                                            <li id="video-hot">最多人播放</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mx-auto">
+                                <div class="video-card d-flex justify-content-center align-items-start">
+                                    <img class="video-post cardFloat" src="assets/images/13.png" alt="视频封面">
+                                    <div class="video-info">
+                                        <p>庆祝中国共产党成立100周年原创歌曲——《红色的赞歌》</p>
+                                        <ul class="video-sub-info d-flex justify-content-start align-items-center text-secondary">
+                                            <li>18.2万观看次数</li>
+                                            <li>2023-12-21</li>
+                                            <li id="video-hot">最多人播放</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mx-auto">
+                                <div class="video-card d-flex justify-content-center align-items-start">
+                                    <img class="video-post cardFloat" src="assets/images/14.png" alt="视频封面">
+                                    <div class="video-info">
+                                        <p>庆祝中南大学合并组建23周年——《青春在中南》</p>
+                                        <ul class="video-sub-info d-flex justify-content-start align-items-center text-secondary">
+                                            <li>18.2万观看次数</li>
+                                            <li>2023-12-21</li>
+                                            <li id="video-hot">最多人播放</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt-5"></div>
+
+                        <div class="row">
+                            <div class="col-md-4 mx-auto">
+                                <div class="video-card d-flex justify-content-center align-items-start">
+                                    <img class="video-post cardFloat" src="assets/images/12.png" alt="视频封面">
+                                    <div class="video-info">
+                                        <p>禾下乘凉梦</p>
+                                        <ul class="video-sub-info d-flex justify-content-start align-items-center text-secondary">
+                                            <li>18.2万观看次数</li>
+                                            <li>2023-12-21</li>
+                                            <li id="video-hot">最多人播放</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mx-auto">
+                                <div class="video-card d-flex justify-content-center align-items-start">
+                                    <img class="video-post cardFloat" src="assets/images/13.png" alt="视频封面">
+                                    <div class="video-info">
+                                        <p>庆祝中国共产党成立100周年原创歌曲——《红色的赞歌》</p>
+                                        <ul class="video-sub-info d-flex justify-content-start align-items-center text-secondary">
+                                            <li>18.2万观看次数</li>
+                                            <li>2023-12-21</li>
+                                            <li id="video-hot">最多人播放</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mx-auto">
+                                <div class="video-card d-flex justify-content-center align-items-start">
+                                    <img class="video-post cardFloat" src="assets/images/14.png" alt="视频封面">
+                                    <div class="video-info">
+                                        <p>庆祝中南大学合并组建23周年——《青春在中南》</p>
+                                        <ul class="video-sub-info d-flex justify-content-start align-items-center text-secondary">
+                                            <li>18.2万观看次数</li>
+                                            <li>2023-12-21</li>
+                                            <li id="video-hot">最多人播放</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-5"></div>
+
+                    <div class="container-md-xl detail-content-border-bottom"></div>
+
+                    <div class="pt-2"></div>
+
+                    <div class="pagerBottom" id="pagerBottom"></div>
+
+                    <div class="pt-5"></div>
+
+                </div>
+
+                <div class="pt-3"></div>
+            </div>
+        </div>
+        <div class="pt-5"></div>
+
+
+    </div>
+
+
+</body>
+<footer>
+    <div class="footerLinks">
+        <div class="container-xl pt-5">
+            <div class="pt-5"></div>
+            <!-- <img src="./assets/icons/19.png" width="900em" class="mx-auto d-block" usemap="#footerMap" alt="FooterIcons" />
+            <map name="footerMap">
+                <area shape="rect" coords="0,0,80,270" href="在线投稿">
+                <area shape="rect" coords="150,0,230,270" href="来稿须知">
+                <area shape="rect" coords="330,0,390,270" href="实物档案">
+                <area shape="rect" coords="490,0,550,270" href="常用下载">
+                <area shape="rect" coords="650,0,710,270" href="校级学生社团">
+                <area shape="rect" coords="810,0,870,270" href="后台管理系统">
+            </map> -->
+            <div class="row">
+                <div class="col-md-2 footerLinks-portal">
+                    <a href="在线投稿" target="_blank">
+                        <img src="./assets/icons/submit.png" width="90em" class="img-fluid" alt="portal" />
+                    </a>
+                    <br>
+                    <p>在线投稿</p>
+                </div>
+                <div class="col-md-2 footerLinks-portal">
+                    <a href="来稿须知" target="_blank">
+                        <img src="./assets/icons/rules.png" width="90em" class="img-fluid" alt="portal" />
+                    </a>
+                    <br>
+                    <p>来稿须知</p>
+                </div>
+                <div class="col-md-2 footerLinks-portal">
+                    <a href="实物档案" target="_blank">
+                        <img src="./assets/icons/files.png" width="90em" class="img-fluid" alt="portal" />
+                    </a>
+                    <br>
+                    <p>实物档案</p>
+                </div>
+                <div class="col-md-2 footerLinks-portal">
+                    <a href="常用下载" target="_blank">
+                        <img src="./assets/icons/download.png" width="90em" class="img-fluid" alt="portal" />
+                    </a>
+                    <br>
+                    <p>常用下载</p>
+                </div>
+                <div class="col-md-2 footerLinks-portal">
+                    <a href="校级学生社团" target="_blank">
+                        <img src="./assets/icons/clubs.png" width="90em" class="img-fluid" alt="portal" />
+                    </a>
+                    <br>
+                    <p>校级学生社团</p>
+                </div>
+                <div class="col-md-2 footerLinks-portal">
+                    <a href="后台管理系统" target="_blank">
+                        <img src="./assets/icons/admins.png" width="90em" class="img-fluid" alt="portal" />
+                    </a>
+                    <br>
+                    <p>后台管理系统</p>
+                </div>
+            </div>
+            <div class="pt-5 footerLinks-img-hr"></div>
+            <div class="pt-5"></div>
+            <div class="row">
+                <div class="col-md-9 text-white">
+                    <a href="http://www.moe.gov.cn/" target="_blank" class="footerLinks-img-a">教育部</a>
+                    &nbsp;|&nbsp;
+                    <a href="http://www.ccyl.org.cn/" target="_blank" class="footerLinks-img-a">中国共青团</a>
+                    &nbsp;|&nbsp;
+                    <a href="http://www.hnedu.gov.cn/" target="_blank" class="footerLinks-img-a">湖南教育政务网</a>
+                    &nbsp;|&nbsp;
+                    <a href="http://www.hngqt.org.cn/" target="_blank" class="footerLinks-img-a">湖南共青团</a>
+                    &nbsp;|&nbsp;
+                    <a href="https://www.csu.edu.cn/" target="_blank" class="footerLinks-img-a">中南大学</a>
+                    &nbsp;|&nbsp;
+                    <a href="https://xgw.csu.edu.cn/" target="_blank" class="footerLinks-img-a">中南大学学工网</a>
+                    &nbsp;|&nbsp;
+                    <a href="https://my.csu.edu.cn/" target="_blank" class="footerLinks-img-a">信息门户</a>
+
+                    <br><br>
+                    <!-- Why so many br, pt instead-->
+
+                    <p>
+                        <i class="fa fa-phone fa-fw"></i>
+                        办公电话 88879469
+                        <br>
+                        <i class="fa fa-envelope fa-fw"></i>
+                        办公邮箱 csutwoffice@sina.com
+                    </p>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-6 footerLinks-qr">
+                            <img src="./assets/images/22.png" width="90em" class="img-fluid" alt="QR" />
+                            <br>
+                            <p>微信公众号</p>
+                        </div>
+                        <div class="col-md-6 footerLinks-qr">
+                            <img src="./assets/images/23.png" width="90em" class="img-fluid" alt="QR" />
+                            <br>
+                            <p>bilibili</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerCopyrights">
+        <div class="container-xl pt-2" style="text-align: center;">
+            <div class="row">
+                <div class="col">
+                    <!-- 已设置JS自动渲染年份 -->
+                    <p class="text-secondary">
+                        Copyright&copy; 2001 - <span id="currentYear"></span>
+                        <br>
+                        中南大学升华网 版权所有
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./assets/icons/1.png" width="40vw" alt="Logo" />
+                    <img src="./assets/icons/2-red.png" width="130vw" alt="Logo" />
+                </div>
+            </div>
+            <div class="pt-5"></div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS @SteamFinder -->
+    <script src="./static/js/index-main.js"></script>
+    <!-- Custom JS @thetheorange -->
+    <script src="./static/js/video-search.js"></script>
+    <!-- Custom JS @grtsinry43 -->
+    <script src="./static/js/pager.js"></script>
+    <script>
+        var container = document.querySelector('.pagerBottom');
+        createPage(2, 10, 4, container);
+    </script>
+    <!-- Custom JS @grtsinry43 -->
+    <script src="./static/js/index-search.js"></script>
+</footer>
+
+</html>
