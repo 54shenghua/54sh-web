@@ -64,18 +64,16 @@ ul {
 /* 视频展示板块 */
 .video-card {
     flex-direction: column;
-    position: relative;
 }
 
 .video-card .video-post {
-    width: 20vw;
+    width: 23vw;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .video-card .video-info p{
     margin: 0;
-    font-size: 12px;
 }
 
 .video-card .video-sub-info {
