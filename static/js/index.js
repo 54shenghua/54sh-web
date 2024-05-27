@@ -128,14 +128,14 @@ let imgInfo = [
 ]
 
 prevButton.addEventListener("click", (event)=>{
-    workTitle.textContent = imgInfo[curTitle % imgInfo.length].des;
-    workDay.textContent = imgInfo[curTitle % imgInfo.length].date;
     curTitle += imgInfo.length;
     curTitle--;
-})
-nextButton.addEventListener("click", (event)=>{
     workTitle.textContent = imgInfo[curTitle % imgInfo.length].des;
     workDay.textContent = imgInfo[curTitle % imgInfo.length].date;
+})
+nextButton.addEventListener("click", (event)=>{
     curTitle += imgInfo.length;
     curTitle++;
+    workTitle.textContent = imgInfo[curTitle % imgInfo.length].des;
+    workDay.textContent = imgInfo[curTitle % imgInfo.length].date;
 })
