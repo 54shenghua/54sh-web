@@ -3,7 +3,7 @@
 中南大学校团委 升华网
 JS Function For 54shenghua Part II
 
-2024.5.26 @grtsinry43
+2024.5.26 @grtsinry43 @thetheorange
 
 本JS定义了以下部分的功能实现:
 导航栏动画 搜索功能
@@ -96,3 +96,46 @@ JS Function For 54shenghua Part II
         }
     });
 })();
+
+/**
+ * 轮播图标题变化
+ */
+
+const prevButton = document.querySelector("#prev-button");
+const nextButton = document.querySelector("#next-button");
+
+const workTitle = document.querySelector("#work-img-title");
+const workDay = document.getElementsByClassName("work-img-date")[0];
+
+
+// 当前指向的标题
+let curTitle = 0
+
+// 轮播图标题
+let imgInfo = [
+    {
+        date: "24",
+        des: "第十九期“校领导与学生午餐会”举行"
+    },
+    {
+        date: "25",
+        des: "中南大学举办2024年寒假母校回访活动启动仪式暨培训交流会"
+    },
+    {
+        date: "26",
+        des: "全国仅4所! 中南大学获2023年共青团服务乡村振兴'笃行计划'评优表彰'大满贯'"
+    }
+]
+
+prevButton.addEventListener("click", (event)=>{
+    workTitle.textContent = imgInfo[curTitle % imgInfo.length].des;
+    workDay.textContent = imgInfo[curTitle % imgInfo.length].date;
+    curTitle += imgInfo.length;
+    curTitle--;
+})
+nextButton.addEventListener("click", (event)=>{
+    workTitle.textContent = imgInfo[curTitle % imgInfo.length].des;
+    workDay.textContent = imgInfo[curTitle % imgInfo.length].date;
+    curTitle += imgInfo.length;
+    curTitle++;
+})
