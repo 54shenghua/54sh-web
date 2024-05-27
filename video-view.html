@@ -170,8 +170,17 @@
 
                         <div class="comment-container">
                             <div class="comment-title">
-                                68条评论 <span><img src="./static/img/sort.png" alt="">排序方式<img
-                                    src="./static/img/downarrow.png" alt=""></span>
+                                68条评论
+                                <span>
+                                <img src="./static/img/sort.png" alt="">
+                                排序方式
+                                <img class="comment-sort-arrow" src="./static/img/downarrow.png" alt="">
+                                <ul class="comment-sort">
+                                    <li class="comment-sort-active">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                </ul>
+                                </span>
                             </div>
 
                             <div class="pt-3"></div>
@@ -214,8 +223,12 @@
 
                     </div>
                     <div class="col-md-4 video-playlist-container">
-                        <div class="list-search">
-                            <img src="./static/img/search.png" alt="">
+                        <div class="detail-content-text">
+                            <div class="search d-flex justify-content-center align-items-center">
+                                <input type="text" id="searchVideoInput" placeholder="搜索内容...">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <span>搜索关键词</span>
+                            </div>
                         </div>
                         <div class="playlist-title">
                             <h3>播放列表</h3>
@@ -420,10 +433,13 @@
         <script src="https://cdn.bootcdn.net/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
         <!--DPlayer Settings JS-->
         <script src="./static/js/video.js"></script>
+        <!-- Custom JS @thetheorange -->
+        <script src="./static/js/video-search.js"></script>
         <!-- Custom JS @SteamFinder -->
         <script src="./static/js/index-main.js"></script>
         <!-- Custom JS @grtsinry43 -->
         <script src="./static/js/index-search.js"></script>
+        <script src="./static/js/video-view.js"></script>
     </footer>
 
 </html>
