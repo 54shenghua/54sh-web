@@ -1,0 +1,36 @@
+.search-container {
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.search-input {
+    box-shadow: 0 0 10px 1px #e7e7e7;
+    border-radius: 7px;
+    border: 1px solid #ffffff;
+}
+
+.search-container input {
+    outline: none;
+    height: 3em;
+    border-radius: 7px 0 0 7px;
+}
+
+.search-container button {
+    outline: none;
+    height: 3em;
+    border: none;
+    background: #1E61AA;
+    color: #fff;
+    border-radius: 0 7px 7px 0;
+}
+
+.search-title {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 5%;
+}
+
+.search-content {
+    margin-left: 5%;
+}
