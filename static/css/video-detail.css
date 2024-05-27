@@ -101,6 +101,12 @@ ul {
         justify-content: center !important;
         align-items: center !important;
     }
+    .video-card .video-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
     .video-card .video-post {
         width: 50vw;
         border-radius: 10px;
