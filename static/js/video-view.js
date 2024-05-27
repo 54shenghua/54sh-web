@@ -3,7 +3,7 @@
 中南大学校团委 升华网
 JS Function For 54shenghua Part IV
 
-2024.5.27 @grtsinry44
+2024.5.27 @grtsinry43
 
 本JS定义了以下部分的功能实现:
 评论输入框，按钮状态切换，排序方式选择
