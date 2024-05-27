@@ -6,7 +6,9 @@
 ### 项目介绍
 
 本项目启动于2024年5月，用于开发新版升华网的前端界面。
+
 Bootstrap框架具有优秀的响应式设计功能，本项目使用Bootstrap 5进行开发。
+
 本项目使用的开发工具为VS Code和WebStorm。
 
 ![Visual Stuido Code](https://img.shields.io/badge/VSCode-blue?style=flat-square&logo=visualstudiocode&logoColor=white) ![Jetbrains Web Storm](https://img.shields.io/badge/WebStorm-black?style=flat-square&logo=WebStorm&logoColor=white)
@@ -16,7 +18,18 @@ Bootstrap框架具有优秀的响应式设计功能，本项目使用Bootstrap 5
 - Bugs and Errors
 ```
 
-### 代码文件
+### 项目进度
+
+- [x] 技术栈与开发范式选定
+- [x] 主页
+- [x] 二级页面 - 文章内容
+- [x] 二级页面 - 视频内容
+- [x] 三级页面 - 文章内容详情
+- [x] 三级页面 - 视频内容详情
+- [ ] 搜索页面
+
+
+### 代码文件结构
 
 |根目录|二级目录|三级目录|备注|
 |-|-|-|-|
