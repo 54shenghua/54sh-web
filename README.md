@@ -5,6 +5,8 @@
 
 ### 项目介绍
 
+*本项目使用GNU General Public License v3.0*
+
 **数据服务中心/升华工作室网络部 于2024年5月开发**
 
 本项目启动于2024年5月，用于开发新版升华网的前端界面。
@@ -18,6 +20,7 @@ Bootstrap框架具有优秀的响应式设计功能，本项目使用Bootstrap 5
 ```diff
 + 盛世升华 服务中南
 - Bugs and Errors
+! GNU General Public License v3.0
 ```
 
 ### 项目进度
