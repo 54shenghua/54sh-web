@@ -2,7 +2,7 @@
 
 ![HTML 5](https://img.shields.io/badge/HTML-5-red?style=flat-square&logo=html5&logoColor=white) ![CSS 3](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3&logoColor=white) ![Javascript](https://img.shields.io/badge/JavaScript-ECMA6-yellow?style=flat-square&logo=javascript&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?style=flat-square&logo=bootstrap&logoColor=white)
 
-本项目使用*GNU General Public License v3.0*
+本项目使用***GNU General Public License v3.0***
 
 ### 项目介绍
 
