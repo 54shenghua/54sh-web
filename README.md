@@ -49,6 +49,7 @@ Bootstrap框架具有优秀的响应式设计功能，本项目使用Bootstrap 5
 ||js||网页Javascript功能代码|
 ||img||其他网页物料|
 |index.html|||升华网首页|
+|search.html|||升华网搜索功能页面|
 |detail.html|||升华网二级页面 - 文章内容列表页|
 |video-detail.html|||升华网二级页面 - 视频列表页|
 |passage.html|||升华网三级页面 - 文章内容详情页|
