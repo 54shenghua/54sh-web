@@ -1,11 +1,14 @@
 ## 中南大学校团委 升华网改版项目 前端页面
+
 ![HTML 5](https://img.shields.io/badge/HTML-5-red?style=flat-square&logo=html5&logoColor=white) ![CSS 3](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3&logoColor=white) ![Javascript](https://img.shields.io/badge/JavaScript-ECMA6-yellow?style=flat-square&logo=javascript&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?style=flat-square&logo=bootstrap&logoColor=white)
 
 
 ### 项目介绍
+
 本项目启动于2024年5月，用于开发新版升华网的前端界面。
 Bootstrap框架具有优秀的响应式设计功能，本项目使用Bootstrap 5进行开发。
 本项目使用的开发工具为VS Code和WebStorm。
+
 ![Visual Stuido Code](https://img.shields.io/badge/VSCode-blue?style=flat-square&logo=visualstudiocode&logoColor=white) ![Jetbrains Web Storm](https://img.shields.io/badge/WebStorm-black?style=flat-square&logo=WebStorm&logoColor=white)
 
 ```diff
@@ -14,6 +17,7 @@ Bootstrap框架具有优秀的响应式设计功能，本项目使用Bootstrap 5
 ```
 
 ### 代码文件
+
 |根目录|二级目录|三级目录|备注|
 |-|-|-|-|
 |**assets**|||**网页物料文件夹**|
