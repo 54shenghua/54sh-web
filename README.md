@@ -55,4 +55,5 @@ Bootstrap框架具有优秀的响应式设计功能，本项目使用Bootstrap 5
 |passage.html|||升华网三级页面 - 文章内容详情页|
 |video-view.html|||升华网三级页面 - 视频详情页|
 |.gitignore|||Git忽略配置文件|
+|LICENSE|||开源协议文件|
 |readme.md|||说明文件|
