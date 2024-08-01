@@ -14,7 +14,7 @@ Bootstrap框架具有优秀的响应式设计功能，本项目使用Bootstrap 5
 
 本项目使用的开发工具为VS Code和WebStorm。
 
-![Visual Stuido Code](https://img.shields.io/badge/VSCode-blue?style=flat-square&logo=visualstudiocode&logoColor=white) ![Jetbrains Web Storm](https://img.shields.io/badge/WebStorm-black?style=flat-square&logo=WebStorm&logoColor=white)
+![Visual Stuido Code](https://img.shields.io/badge/VSCode-blue?style=flat-square&logo=vscodium&logoColor=white) ![Jetbrains Web Storm](https://img.shields.io/badge/WebStorm-black?style=flat-square&logo=WebStorm&logoColor=white)
 
 ```diff
 + 盛世升华 服务中南
